@@ -24,3 +24,15 @@ print(2*list1)
 
 list2 = [2,4,5]
 print(list2[1])
+
+# arrays
+import numpy as np
+ar1 = np.array([1,2,3])
+print(ar1)
+print(type(ar1))
+
+ar2 = np.array([[1,2,3],[6,7,8]])
+print(ar2)
+
+print(ar2[1,1])
+print(ar2[0,2])
