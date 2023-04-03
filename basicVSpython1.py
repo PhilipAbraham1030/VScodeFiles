@@ -36,3 +36,62 @@ print(ar2)
 
 print(ar2[1,1])
 print(ar2[0,2])
+
+# just seeing how this looks in git diff
+ar3 = np.array([[2,2,2],[3,3,7]])
+print(ar3*ar3)
+print(ar3+ar3)
+
+print(ar3[1,2])
+
+list3 = [1,3,5]
+print(list3)
+list3.append(7)
+print(list3)
+
+print(ar1)
+ar1 = np.append(ar1,555)
+print(ar1)
+print(ar1[3])
+
+ar1 = np.append(ar1,np.array([9,9,9]))
+print(ar1)
+
+ar3=np.array([[0,0,0],[2,2,2]])
+print(ar3)
+
+# add row to array axis=0
+ar3 = np.append(ar3,np.array([[3,4,5]]),axis=0)
+print(ar3)
+
+ar11 = np.array([[4,5,6],[8,9,0]])
+print(ar11)
+
+
+ar22 = np.append(ar11,np.array([[2,2,2]]),axis=0)
+print(ar22)
+
+ar22=np.append(ar22,np.array([[1,1,1]]),axis=0)
+print(ar22)
+print(ar22.shape)
+
+ar22 = np.append(ar22, np.array([[7,7,7]]),axis=0)
+print(ar22)
+print(ar22.shape)
+
+# add column to array axis=1
+ar33 = np.array([[8,8,8],[9,9,9]])
+print(ar33)
+print(ar33.shape)
+
+ar33 = np.append(ar33, np.array([[1],[1]]),axis=1)
+print(ar33)
+print(ar33.shape)
+
+ar33 = np.append(ar33,np.array([[2],[2]]),axis=1)
+print(ar33)
+print(ar33.shape)
+
+# array math
+print(ar33*2)
+print(ar33+2)
