@@ -18,3 +18,8 @@ print(np.linalg.norm(vec3))
 print(np.sqrt(3**2 + 4**2))
 
 print(vec3)
+print(vec2)
+print(vec1*3)
+
+print(np.sqrt(np.sum(vec3**2)))
+print(np.sum(vec3))
