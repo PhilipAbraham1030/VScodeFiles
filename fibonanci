@@ -1,4 +1,4 @@
-# Calculate the 20th Fibonacci number
+# Calculate the nth Fibonacci number
 import numpy as np
 
 term = int(input("enter number of terms: "))
