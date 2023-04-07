@@ -1,0 +1,10 @@
+# Calculate the 20th Fibonacci number
+import numpy as np
+
+term = int(input("enter number of terms: "))
+fib = [0,1]
+for n in range(2,term):
+    fib.append(fib[-1]+fib[-2])
+
+print(fib)
+print("The fibonanci number for ", term, "term is", fib[-1])
