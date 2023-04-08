@@ -7,4 +7,4 @@ for n in range(2,term):
     fib.append(fib[-1]+fib[-2])
 
 print(fib)
-print("The fibonanci number for ", term, "term is", fib[-1])
+print("The fibonanci number for ", term, "terms is", fib[-1])
