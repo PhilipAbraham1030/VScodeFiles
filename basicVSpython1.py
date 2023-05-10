@@ -30,9 +30,11 @@ import numpy as np
 ar1 = np.array([1,2,3])
 print(ar1)
 print(type(ar1))
+print(ar1.shape)
 
 ar2 = np.array([[1,2,3],[6,7,8]])
 print(ar2)
+print(ar2.shape)
 
 print(ar2[1,1])
 print(ar2[0,2])
@@ -62,6 +64,9 @@ print(ar3)
 
 # add row to array axis=0
 ar3 = np.append(ar3,np.array([[3,4,5]]),axis=0)
+print(ar3)
+
+ar3 = np.append(np.array([[3,4,5]]),ar3,axis=0) # prepend row
 print(ar3)
 
 ar11 = np.array([[4,5,6],[8,9,0]])
